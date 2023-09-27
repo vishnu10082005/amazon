@@ -1,0 +1,171 @@
+
+body{
+  background-image: url(assets/background\ picture.png);
+    
+}
+
+
+.main1{
+    background-color: #131921;
+    display: flex;
+    justify-items: center;
+    color: white;
+   
+    
+    
+     
+}
+.address{
+    display: flex;
+    font-size: 12px;
+    margin-left: 30px;
+}
+.location{
+    margin-top: 15px;
+}
+.sign{
+    font-size: 12px;
+    display: flex;
+    margin-left: 30px;
+}
+.logo1{
+    margin-top: 30px;
+    margin-left: 5px;
+}
+.search{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 15px;
+    
+}
+.text{
+    width: 600px;
+}
+.flag{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.return{
+    margin-left: 20px;
+}
+.cart{
+    display: flex;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+.main2{
+    margin-left: 25px;
+    margin-top: 5px;
+}
+.parent{
+    background-color: #232F3E;
+    display: flex;
+    justify-content: space-between;
+}
+.all{
+    display: flex;
+    font-size: 12px;
+    color: white;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+.menu{
+    margin-top: 13px;
+    margin-left: 20px;
+}
+.Best{
+    margin-left: 20px;
+}
+.lion{
+display: flex;
+justify-content: space-around;
+margin-right: 10px;
+
+}
+.sher{
+    margin-top: 10px;
+    
+    margin-left: 50px;
+}
+.prime{
+    color: white;
+    font-size: 15px;
+    width: 120px;
+    margin-right: 50px;
+}
+.end{
+    margin-top: 5px;
+}
+.parent{
+    display: flex;
+  
+}
+.allitems1{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.child1{
+    border: 1px solid black;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    justify-content: space-around;
+    height: 300px;
+    
+}
+.h1{
+    margin-left: 20px;
+    font-size: 25px;
+}
+.child2{
+    border: 1px solid black;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    justify-content: space-around;
+    height: 300px;
+}
+.child3{
+    border: 1px solid black;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    justify-content: space-around;
+}
+.h2{
+    margin-left: 5px;
+    font-size: 25px;
+}
+.child4{
+    border: 1px solid black;
+    margin-top: 20px;
+    width: 400px;
+    font-size: 20px;
+    height: 150px;
+}
+.h4{
+    margin-left: 20px;
+ 
+}
+.btn{
+border: 1px solid yellow;
+background-color: yellow;
+border-radius: 5px;
+width: 300px;
+font: 5px;
+margin-left: 10px;
+font-size: 10px;
+height: 25px;
+text-align: center;
+}
+.laptop{
+    margin-left: 20px;
+}
+p{
+    font-size: 10px;
+}
