@@ -1,171 +1,377 @@
-
-body{
-  background-image: url(assets/background\ picture.png);
-    
+* {
+    padding: 0;
+    margin: 0;
 }
 
+body {
+    background-image: url(assets/background\ picture.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-size: contain;
+    background-position: center 190%;
+}
 
-.main1{
+.main1 {
     background-color: #131921;
     display: flex;
     justify-items: center;
     color: white;
-   
-    
-    
-     
+    align-items: center;
 }
-.address{
+
+.address {
     display: flex;
     font-size: 12px;
     margin-left: 30px;
 }
-.location{
+
+.location {
     margin-top: 15px;
 }
-.sign{
+
+.sign {
     font-size: 12px;
     display: flex;
     margin-left: 30px;
 }
-.logo1{
+
+.logo1 {
     margin-top: 30px;
     margin-left: 5px;
 }
-.search{
+
+.search {
     display: flex;
     margin-left: 20px;
     margin-top: 15px;
-    
 }
-.text{
+
+.text {
     width: 600px;
 }
-.flag{
+
+.flag {
     margin-top: 20px;
     margin-left: 30px;
 }
-.return{
+
+.return {
     margin-left: 20px;
 }
-.cart{
+
+.cart {
     display: flex;
     margin-top: 15px;
     margin-left: 25px;
 }
-.main2{
+
+.main2 {
     margin-left: 25px;
     margin-top: 5px;
 }
-.parent{
+
+.parent {
     background-color: #232F3E;
     display: flex;
     justify-content: space-between;
 }
-.all{
+
+.all {
     display: flex;
     font-size: 12px;
     color: white;
     justify-content: space-around;
     margin-top: 10px;
 }
-.menu{
+
+.menu {
     margin-top: 13px;
     margin-left: 20px;
 }
-.Best{
+
+.Best {
     margin-left: 20px;
 }
-.lion{
-display: flex;
-justify-content: space-around;
-margin-right: 10px;
+
+.lion {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10px;
 
 }
-.sher{
+
+.sher {
     margin-top: 10px;
-    
+
     margin-left: 50px;
 }
-.prime{
+
+.prime {
     color: white;
     font-size: 15px;
     width: 120px;
     margin-right: 50px;
 }
-.end{
+
+.end {
     margin-top: 5px;
 }
-.parent{
+
+.parent {
     display: flex;
-  
+
 }
-.allitems1{
+
+.allitems1 {
     margin-top: 100px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
-.child1{
+
+.child1 {
     border: 1px solid black;
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
-    width: 250px;
+    width: 23%;
     justify-content: space-around;
-    height: 300px;
-    
+    height: auto;
+    background-color: white;
+    padding: 5px;
 }
-.h1{
+
+.h1 {
     margin-left: 20px;
-    font-size: 25px;
+    font-size: 20px;
 }
-.child2{
+
+.child1 img {
+    width: 113px;
+}
+
+.child2 img {
+    width: 113px;
+}
+
+.child2 {
     border: 1px solid black;
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
-    width: 250px;
+    width: 23%;
     justify-content: space-around;
-    height: 300px;
+    height: auto;
+    background-color: white;
+
 }
-.child3{
+
+.child3 {
     border: 1px solid black;
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
+    width: 23%;
     width: 300px;
     justify-content: space-around;
+    background-color: white;
 }
-.h2{
+
+.h2 {
     margin-left: 5px;
     font-size: 25px;
 }
-.child4{
+
+.child4 {
     border: 1px solid black;
     margin-top: 20px;
-    width: 400px;
+    width: 23%;
     font-size: 20px;
     height: 150px;
+    background-color: white;
+    text-align: center;
 }
-.h4{
+
+.child4 img {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.btn {
+    border: 1px solid yellow;
+    background-color: yellow;
+    border-radius: 5px;
+    width: 80%;
+    font: 5px;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+.laptop {
     margin-left: 20px;
- 
 }
-.btn{
-border: 1px solid yellow;
-background-color: yellow;
-border-radius: 5px;
-width: 300px;
-font: 5px;
-margin-left: 10px;
-font-size: 10px;
-height: 25px;
-text-align: center;
-}
-.laptop{
-    margin-left: 20px;
-}
-p{
-    font-size: 10px;
+
+@media screen and (max-width: 400px) {
+    .main1 {
+        background-color: #131921;
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        color: white;
+        justify-content: space-around;
+        align-items: center;
+        max-width: 100vw;
+        font-size: 5px;        
+    }
+    .main1 p{
+        font-size: 5px;
+
+    }
+    
+    .address {
+        display: flex;
+        font-size: 5px;
+        margin-left: 30px;
+        display: none;
+        margin-left: -25px;
+
+
+    }
+
+    
+    .sign {
+        font-size: 12px;
+        display: flex;
+        margin-left: 30px;
+        /* display: none; */
+        width: 40px;
+        margin-left: -25px;
+
+    }
+
+    
+    .search {
+        display: flex;      
+    }
+    
+    .text {
+        width: 600px;
+    }
+    .cart {
+        display: flex;
+        margin-left: -25px;
+    }
+    
+    .main2 {
+        margin-left: 25px;
+    }
+    
+    .parent {
+        background-color: #232F3E;
+        display: flex;
+        justify-content: space-between;
+        width: 100vw;
+        height: 30px;
+    }
+    
+    .all {
+        display: flex;
+        font-size: 3px;
+        color: white;
+        justify-content: space-around;
+        margin-top: 10px;
+        width: 100vw;
+        /* display: none; */
+    }
+    
+    .menu {
+        margin-top: 13px;
+        margin-left: 20px;
+        display: block;
+    }
+    
+    .Best {
+        margin-left: 20px;
+        display: none;
+    }
+    
+    .lion {
+        display: flex;
+        justify-content: space-between;
+        margin-right: 10px;
+        /* display: none; */
+        width: 40%;
+    
+    }
+    .lion img{
+        width: 40px;
+    }
+    
+    .sher {
+        margin-top: 10px;
+    }
+    
+    .prime {
+        color: white;
+        font-size: 5px;
+    }
+    
+    .end img {
+        margin-top: 5px;
+        width: 10px;
+        height: 40px;
+    }
+    
+    .parent {
+        display: flex;
+    
+    }
+    .main2 img{
+        width: 40px;
+    }
+    body {
+        background-image: url(assets/background\ picture.png);
+        background-repeat: no-repeat;
+        height: 100vh;
+        width: 100vw;
+        background-size: contain;
+        background-position: center 19%;
+        background-color: #30525C;
+    }
+
+    .text {
+        width: 90%;
+    }
+
+    .child1,
+    .child2,
+    .child3,
+    .child4 {
+        width: 90%;
+        margin-top: 20px;
+    }
+
+    .h1,
+    .h2 {
+        font-size: 16px;
+    }
+
+    .child1 img,
+    .child2 img {
+        width: 80px;
+    }
+
+    .child3 {
+        width: 90%;
+    }
+
+    .child4 {
+        height: auto;
+    }
+
+    .btn {
+        font-size: 10px;
+    }
 }
